@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Todolist() {
+const Todolist = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
 
